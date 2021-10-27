@@ -5,7 +5,8 @@ int
 is_perfect_number(int n)
 {
 	int sum = 0;
-	for (int i = 1; i < n; ++i)
+	// Check all factors
+	for (int i = 1; i < n / 2 + 1; ++i)
 		if (n % i == 0)
 			sum += i;
 	return sum == n;
@@ -20,7 +21,7 @@ is_even(int i)
 int
 factorial(int n)
 {
-	int product = 1;
+	int product = 0;
 	for (int i = 1; i <= n; ++i)
 		product *= i;
 	return product;
