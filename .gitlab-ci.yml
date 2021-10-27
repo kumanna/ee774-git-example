@@ -1,0 +1,11 @@
+image: debian
+
+build:
+  stage: build
+  before_script:
+    - apt update && apt -y install build-essential
+  script:
+    - make
+  artifacts:
+    paths:
+      - main
