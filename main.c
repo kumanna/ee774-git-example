@@ -15,6 +15,7 @@ is_perfect_number(int n)
 int
 is_even(int i)
 {
+	// This will be optimized to bit comparison
 	return i % 2 == 0;
 }
 
