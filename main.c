@@ -33,7 +33,7 @@ main(int argc, char *argv[])
 	if (argc > 1)
 		n = atoi(argv[1]);
 
-	printf("Factorial of %d is %d.\n", n, factorial(n));
+	printf("Factorial of %d is %d.\n", n, factorial(n);
 	printf("%d is even? Answer: %s\n", n, is_even(n) ? "Yes" : "No");
 	printf("%d is perfect? Answer: %s\n", n, is_perfect_number(n) ? "Yes" : "No");
 	return 0;
