@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int
+is_perfect_number(int n)
+{
+	return 0;
+}
+
+int
 is_even(int i)
 {
 	return i % 2 == 0;
