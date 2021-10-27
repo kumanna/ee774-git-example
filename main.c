@@ -32,8 +32,10 @@ int
 main(int argc, char *argv[])
 {
 	int n = 1;
-	if (argc > 1)
+	if (argc > 1) {
 		n = atoi(argv[1]);
+        printf("Using n = %d from command line.\n", n);
+    }
 
 	printf("Results:\n");
 	printf("Factorial of %d is %d.\n", n, factorial(n));
